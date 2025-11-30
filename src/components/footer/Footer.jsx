@@ -8,7 +8,10 @@ export default function Footer() {
       <div className=" min-w-screen h-auto py-10 px-8 bg-gray-900">
         <div className="flex flex-col md:flex-row gap-4  justify-around px-6 py-4 ">
           <div className="flex flex-col space-y-4">
-            <h1 className="text-4xl font-bold text-sky-500 ">CodeAura</h1>
+            <h1 className="text-4xl font-bold text-sky-500 ">
+              {/* CodeAura */}
+              <img src="/assets/logo.png" className="h-10" />
+            </h1>
             <ul className="flex flex-row gap-8 list-disc text-sm text-gray-300">
               <li> Full Stack Developer </li>
               <li>Problem Solver</li>
@@ -58,10 +61,14 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          <div className="space-y-2" >
-            <h2 className="text-lg text-gray-100 font-bold">Help & Suggestions</h2>
+          <div className="space-y-2">
+            <h2 className="text-lg text-gray-100 font-bold">
+              Help & Suggestions
+            </h2>
             <ul className="flex flex-col space-y-1">
-              <li className="text-sm text-gray-400"><b>Email :</b> chaudharymohit2408@gmail.com</li>
+              <li className="text-sm text-gray-400">
+                <b>Email :</b> chaudharymohit2408@gmail.com
+              </li>
               <li className="text-sm text-gray-400">
                 Contact for Suggestions??
               </li>
