@@ -17,6 +17,7 @@ export default function ProjectCard({
           <iframe
             src={image}
             alt={title}
+            title={title}
             className="w-full h-56 object-top-left"
           />
           <div className="absolute inset-0 bg-linear-to-t from-gray-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-6">
@@ -42,7 +43,7 @@ export default function ProjectCard({
         </div>
         <div className="p-6">
           <h3 className="text-2xl font-bold mb-3">{title}</h3>
-          <p className="text-gray-400 mb-4 leading-relaxed">{description}</p>
+          <p className="text-gray-400 mb-41">{description}</p>
           <div className="flex flex-wrap gap-2">
             {tech.map((tech, techIndex) => (
               <span
