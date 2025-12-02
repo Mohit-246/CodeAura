@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -27,7 +28,7 @@ export default function Navbar() {
       >
         <div className="flex items-center justify-around py-6 px-4 ">
           <h1 className="text-3xl font-bold text-sky-500 ">
-            <a href="/">{/* CodeAura */}<img src="/assets/logo.png" alt="code aura " title="code aura" className="h-10"/></a>
+            <a href="/">{/* CodeAura */}<Image src="/assets/logo.png" alt="code aura " title="code aura" className="h-10"/></a>
           </h1>
           <ul className="hidden md:flex items-center gap-6">
             <li className={styleClasses}>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Code2, Palette, Star, Zap } from "lucide-react";
+import Image from "next/image";
 
 export default function Skills() {
   return (
@@ -110,53 +111,53 @@ export default function Skills() {
         {/* Logo Row */}
         <div className="overflow-hidden my-16">
           <div className="flex gap-16 animate-slide whitespace-nowrap w-max">
-            <img src="/skills/html.png" alt="HTML" className="h-15" />
-            <img src="/skills/css.png" alt="CSS" className="h-15" />
-            <img
+            <Image src="/skills/html.png" alt="HTML" className="h-15" />
+            <Image src="/skills/css.png" alt="CSS" className="h-15" />
+            <Image
               src="/skills/javascript.png"
               alt="javascript"
               className="h-15"
             />
-            <img src="/skills/react.png" alt="React" className="h-15" />
-            <img src="/skills/nextjs.png" alt="Next.js" className="h-15" />
-            <img
+            <Image src="/skills/react.png" alt="React" className="h-15" />
+            <Image src="/skills/nextjs.png" alt="Next.js" className="h-15" />
+            <Image
               src="/skills/tailwindcss.png"
               alt="Tailwind"
               className="h-15"
             />
-            <img src="/skills/nodejs.png" alt="Node" className="h-15" />
-            <img
+            <Image src="/skills/nodejs.png" alt="Node" className="h-15" />
+            <Image
               src="/skills/expressjs.png"
               alt="Express.js"
               className="h-15"
             />
-            <img src="/skills/mongodb.png" alt="MongoDB" className="h-15" />
-            <img src="/skills/github.png" alt="Github" className="h-15" />
-            <img src="/skills/java.png" alt="java" className="h-15" />
+            <Image src="/skills/mongodb.png" alt="MongoDB" className="h-15" />
+            <Image src="/skills/github.png" alt="Github" className="h-15" />
+            <Image src="/skills/java.png" alt="java" className="h-15" />
 
-            <img src="/skills/html.png" alt="HTML" className="h-15" />
-            <img src="/skills/css.png" alt="CSS" className="h-15" />
-            <img
+            <Image src="/skills/html.png" alt="HTML" className="h-15" />
+            <Image src="/skills/css.png" alt="CSS" className="h-15" />
+            <Image
               src="/skills/javascript.png"
               alt="javascript"
               className="h-15"
             />
-            <img src="/skills/react.png" alt="React" className="h-15" />
-            <img src="/skills/nextjs.png" alt="Next.js" className="h-15" />
-            <img
+            <Image src="/skills/react.png" alt="React" className="h-15" />
+            <Image src="/skills/nextjs.png" alt="Next.js" className="h-15" />
+            <Image
               src="/skills/tailwindcss.png"
               alt="Tailwind"
               className="h-15"
             />
-            <img src="/skills/nodejs.png" alt="Node" className="h-15" />
-            <img
+            <Image src="/skills/nodejs.png" alt="Node" className="h-15" />
+            <Image
               src="/skills/expressjs.png"
               alt="Express.js"
               className="h-15"
             />
-            <img src="/skills/mongodb.png" alt="MongoDB" className="h-15" />
-            <img src="/skills/github.png" alt="Github" className="h-15" />
-            <img src="/skills/java.png" alt="java" className="h-15" />
+            <Image src="/skills/mongodb.png" alt="MongoDB" className="h-15" />
+            <Image src="/skills/github.png" alt="Github" className="h-15" />
+            <Image src="/skills/java.png" alt="java" className="h-15" />
           </div>
         </div>
       </section>

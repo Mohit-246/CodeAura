@@ -1,6 +1,7 @@
 "use client";
 
 import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -67,7 +68,7 @@ export default function About() {
             </div>
           </div>
           <div className="flex items-center justify-center w-2/3">
-            <img
+            <Image
               src="/skills/profile.jpg"
               alt="Profile-img"
               className="rounded-full md:h-56 w-auto"

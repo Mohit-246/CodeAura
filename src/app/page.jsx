@@ -6,10 +6,12 @@ import Skills from "@/components/sections/Skills";
 import Project from "@/components/sections/Project";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/footer/Footer";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
     <>
+      <ToastContainer />
       <div className="bg-linear-to-br from-white via-blue-50 to-white">
         <Navbar />
         <main>

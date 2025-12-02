@@ -1,6 +1,8 @@
 "use client";
 
 import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
+import Image from "next/image";
+
 
 export default function Footer() {
   return (
@@ -10,7 +12,7 @@ export default function Footer() {
           <div className="flex flex-col space-y-4">
             <h1 className="text-4xl font-bold text-sky-500 ">
               {/* CodeAura */}
-              <img src="/assets/logo.png"  alt="Code Aura" title="Code Aura" className="h-10" />
+              <Image src="/assets/logo.png"  alt="Code Aura" title="Code Aura" className="h-10" />
             </h1>
             <ul className="flex flex-row gap-8 list-disc text-sm text-gray-300">
               <li> Full Stack Developer </li>
