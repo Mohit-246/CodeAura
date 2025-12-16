@@ -5,7 +5,8 @@ import { Send } from "lucide-react";
 import rocket from "@/animation/rocket.json";
 import axios from "axios";
 import { useState } from "react";
-import toast from "react-hot-toast";
+import { toast } from "react-toastify";
+;
 
 export default function Contact() {
   const [formData, setFormData] = useState({

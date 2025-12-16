@@ -6,7 +6,10 @@ import Image from "next/image";
 export default function Skills() {
   return (
     <>
-      <section id="skills" className="min-w-full py-10 px-8 bg-linear-to-br from-white via-blue-50 to-white">
+      <section
+        id="skills"
+        className="min-w-full py-10 px-8 bg-linear-to-br from-white via-blue-50 to-white"
+      >
         <h1 className="text-5xl text-center font-bold text-gray-900">Skills</h1>
         <div className="mt-4">
           <h2 className="text-center text-xl font-semibold text-gray-700 mb-10">
@@ -111,53 +114,161 @@ export default function Skills() {
         {/* Logo Row */}
         <div className="overflow-hidden my-16">
           <div className="flex gap-16 animate-slide whitespace-nowrap w-max">
-            <Image src="/skills/html.png" alt="HTML" className="h-15" />
-            <Image src="/skills/css.png" alt="CSS" className="h-15" />
+            <Image
+              src="/skills/html.png"
+              alt="HTML"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/css.png"
+              alt="CSS"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
             <Image
               src="/skills/javascript.png"
               alt="javascript"
-              className="h-15"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
             />
-            <Image src="/skills/react.png" alt="React" className="h-15" />
-            <Image src="/skills/nextjs.png" alt="Next.js" className="h-15" />
+            <Image
+              src="/skills/react.png"
+              alt="React"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/nextjs.png"
+              alt="Next.js"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
             <Image
               src="/skills/tailwindcss.png"
               alt="Tailwind"
-              className="h-15"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
             />
-            <Image src="/skills/nodejs.png" alt="Node" className="h-15" />
+            <Image
+              src="/skills/nodejs.png"
+              alt="Node"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
             <Image
               src="/skills/expressjs.png"
               alt="Express.js"
-              className="h-15"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
             />
-            <Image src="/skills/mongodb.png" alt="MongoDB" className="h-15" />
-            <Image src="/skills/github.png" alt="Github" className="h-15" />
-            <Image src="/skills/java.png" alt="java" className="h-15" />
+            <Image
+              src="/skills/mongodb.png"
+              alt="MongoDB"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/github.png"
+              alt="Github"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/java.png"
+              alt="java"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
 
-            <Image src="/skills/html.png" alt="HTML" className="h-15" />
-            <Image src="/skills/css.png" alt="CSS" className="h-15" />
+            <Image
+              src="/skills/html.png"
+              alt="HTML"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/css.png"
+              alt="CSS"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
             <Image
               src="/skills/javascript.png"
               alt="javascript"
-              className="h-15"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
             />
-            <Image src="/skills/react.png" alt="React" className="h-15" />
-            <Image src="/skills/nextjs.png" alt="Next.js" className="h-15" />
+            <Image
+              src="/skills/react.png"
+              alt="React"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/nextjs.png"
+              alt="Next.js"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
             <Image
               src="/skills/tailwindcss.png"
               alt="Tailwind"
-              className="h-15"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
             />
-            <Image src="/skills/nodejs.png" alt="Node" className="h-15" />
+            <Image
+              src="/skills/nodejs.png"
+              alt="Node"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
             <Image
               src="/skills/expressjs.png"
               alt="Express.js"
-              className="h-15"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
             />
-            <Image src="/skills/mongodb.png" alt="MongoDB" className="h-15" />
-            <Image src="/skills/github.png" alt="Github" className="h-15" />
-            <Image src="/skills/java.png" alt="java" className="h-15" />
+            <Image
+              src="/skills/mongodb.png"
+              alt="MongoDB"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/github.png"
+              alt="Github"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
+            <Image
+              src="/skills/java.png"
+              alt="java"
+              width={60}
+              height={50}
+              className="h-15 w-auto"
+            />
           </div>
         </div>
       </section>

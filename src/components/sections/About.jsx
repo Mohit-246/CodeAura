@@ -71,6 +71,8 @@ export default function About() {
             <Image
               src="/skills/profile.jpg"
               alt="Profile-img"
+              width={64}
+              height={56}
               className="rounded-full md:h-56 w-auto"
             />
           </div>
