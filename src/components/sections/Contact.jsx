@@ -6,7 +6,6 @@ import rocket from "@/animation/rocket.json";
 import axios from "axios";
 import { useState } from "react";
 import { toast } from "react-toastify";
-import Primary_Button from "../ui/Button";
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
