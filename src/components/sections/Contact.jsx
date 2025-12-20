@@ -6,8 +6,7 @@ import rocket from "@/animation/rocket.json";
 import axios from "axios";
 import { useState } from "react";
 import { toast } from "react-toastify";
-;
-
+import Primary_Button from "../ui/Button";
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -15,6 +14,7 @@ export default function Contact() {
     email: "",
     message: "",
   });
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -25,6 +25,7 @@ export default function Contact() {
   };
 
   const submitForm = async (e) => {
+    setLoading(true);
     e.preventDefault();
     if (
       !formData.name ||
@@ -33,20 +34,22 @@ export default function Contact() {
       !formData.message
     ) {
       toast.error("Fill All The Field Required !!");
+      setLoading(false);
       return;
     }
 
     try {
-      const response = await axios.post("/api/contact", formData);
+      const res = await axios.post("/api/contact", formData);
 
-      if (!response.data.success) {
+      console.log(res);
+      if (!res?.data?.success) {
         toast.error("Something Went Wrong");
+        setLoading(false);
         return;
       }
 
-      toast.success("Message Sent Successfully!");
-      console.log("Success:", response.data);
-
+      toast.success(`Thank you for Contacting ${res?.data?.user?.name}`);
+      setLoading(false);
       // reset form
       setFormData({
         name: "",
@@ -56,7 +59,8 @@ export default function Contact() {
       });
     } catch (err) {
       toast.error("Server Error");
-      console.log("Error:", err.response?.data);
+      setLoading(false);
+      console.log("Error:", err.res?.data);
     }
   };
 
@@ -151,6 +155,7 @@ export default function Contact() {
             </div>
 
             <button
+              disabled={loading}
               type="submit"
               className="flex items-center gap-3 text-white font-semibold text-lg bg-blue-400 px-4 py-2 rounded-full transform duration-200 hover:scale-110 focus:outline-none"
             >
