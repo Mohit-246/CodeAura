@@ -9,7 +9,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Mohit",
+  title: "Code Aura",
   description: "A Production Ready Website Developer",
 };
 
