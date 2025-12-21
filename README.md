@@ -132,6 +132,8 @@ npm start
 - User receives feedback via React Toastify
 - User Also Receives an Email on their corressponding email.
 
+---
+
 ## 📸 Screenshots
 
 | Hero                      |
@@ -154,6 +156,8 @@ npm start
 | ------- |
 
 | ![](screenshots/contact.png)
+
+---
 
 ## 📄 License
 
